@@ -10,8 +10,7 @@
         </a>
       </li>
 
-      {{-- <li class="{{ Route::is('users.*') || Route::is('roles.*') || Route::is('units.*') ? 'active' : '' }}"> --}}
-      <li class="active">
+      <li class="{{ Route::is('users.*') || Route::is('roles.*') || Route::is('units.*') ? 'active' : '' }}">
         <a href="javascript:void(0);" class="waves-effect">
           <i class="icon-settings p-r-10"></i>
           <span class="hide-menu">Master Data<span class="fa arrow"></span></span>
@@ -29,8 +28,7 @@
         </ul>
       </li>
 
-      {{-- <li class="{{ Route::is('periods.*') || Route::is('standards.*') || Route::is('indicators.*') ? 'active' : '' }}"> --}}
-      <li class="active">
+      <li class="{{ Route::is('periods.*') || Route::is('standards.*') || Route::is('indicators.*') ? 'active' : '' }}">
         <a href="javascript:void(0);" class="waves-effect">
           <i class="icon-note p-r-10"></i>
           <span class="hide-menu">Pengaturan SPMI<span class="fa arrow"></span></span>
@@ -48,8 +46,7 @@
         </ul>
       </li>
 
-      {{-- <li> --}}
-        <li class="active">
+      <li>
         <a href="javascript:void(0);" class="waves-effect">
           <i class="icon-list p-r-10"></i>
           <span class="hide-menu">Kuesioner<span class="fa arrow"></span></span>
@@ -61,8 +58,7 @@
         </ul>
       </li>
 
-      {{-- <li> --}}
-        <li class="active">
+      <li>
         <a href="javascript:void(0);" class="waves-effect">
           <i class="icon-pencil p-r-10"></i>
           <span class="hide-menu">Pengisian<span class="fa arrow"></span></span>
@@ -73,8 +69,7 @@
         </ul>
       </li>
 
-      {{-- <li> --}}
-        <li class="active">
+      <li>
         <a href="javascript:void(0);" class="waves-effect">
           <i class="icon-magnifier p-r-10"></i>
           <span class="hide-menu">Audit<span class="fa arrow"></span></span>
