@@ -1,58 +1,41 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# SPMI Pendidikan
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+**SPMI Pendidikan** adalah sistem informasi berbasis web yang dikembangkan untuk mendukung pelaksanaan **Sistem Penjaminan Mutu Internal (SPMI)** di lingkungan Pendidikan. Sistem ini digunakan oleh Lembaga Penjaminan Mutu (LPM) untuk mengelola standar mutu, instrumen evaluasi, Audit Mutu Internal (AMI), serta monitoring tindak lanjut secara terintegrasi.
 
-## About Laravel
+Aplikasi ini memfasilitasi proses PPEPP (Penetapan, Pelaksanaan, Evaluasi, Pengendalian, dan Peningkatan) melalui pengelolaan kuesioner, penilaian unit/prodi, pengolahan hasil evaluasi, serta dashboard pelaporan mutu yang terpusat.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Fitur Utama
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+* Manajemen Standar dan Indikator Mutu
+* Kuesioner Evaluasi (Mahasiswa, Dosen, Alumni, Mitra)
+* Monitoring dan Evaluasi (Monev)
+* Audit Mutu Internal (AMI)
+* Tindak Lanjut dan Monitoring RTL
+* Manajemen Periode Penilaian
+* Manajemen Unit (Jurusan / Program Studi)
+* Dashboard dan Rekapitulasi Nilai Mutu
+* Role-based Access (LPM, Auditor, Prodi, Pimpinan, dll)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Tujuan
 
-## Learning Laravel
+* Mendukung implementasi SPMI di Pendidikan
+* Mempermudah proses evaluasi mutu akademik
+* Meningkatkan monitoring kinerja unit dan program studi
+* Menyediakan laporan mutu yang terstruktur dan terukur
+* Mendukung pengambilan keputusan berbasis data
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## Teknologi
 
-In addition, [Laracasts](https://laracasts.com) contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+* Laravel
+* MySQL / PostgreSQL
+* REST API Ready
+* Role-based Authorization
 
-You can also watch bite-sized lessons with real-world projects on [Laravel Learn](https://laravel.com/learn), where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
+## Pengguna Sistem
 
-## Agentic Development
-
-Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
-
-```bash
-composer require laravel/boost --dev
-
-php artisan boost:install
-```
-
-Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+* Lembaga Penjaminan Mutu (LPM)
+* Auditor Mutu Internal
+* Ketua Program Studi
+* Dosen
+* Mahasiswa
+* Pimpinan Institusi
