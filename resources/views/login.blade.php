@@ -41,7 +41,7 @@
     <section id="wrapper" class="login-register">
         <div class="login-box login-sidebar">
             <div class="white-box">
-                <form class="form-horizontal form-material" id="loginform" action="{{ route('login.store') }}" method="POST">
+                <form class="form-horizontal form-material" id="loginform" action="{{ route('login') }}" method="POST">
                     @csrf
                     
                     <a href="javascript:void(0)" class="text-center db">

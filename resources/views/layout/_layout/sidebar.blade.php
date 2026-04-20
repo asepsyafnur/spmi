@@ -10,7 +10,8 @@
         </a>
       </li>
 
-      <li class="{{ Route::is('users.*') || Route::is('roles.*') || Route::is('units.*') ? 'active' : '' }}">
+      {{-- <li class="{{ Route::is('users.*') || Route::is('roles.*') || Route::is('units.*') ? 'active' : '' }}"> --}}
+      <li class="active">
         <a href="javascript:void(0);" class="waves-effect">
           <i class="icon-settings p-r-10"></i>
           <span class="hide-menu">Master Data<span class="fa arrow"></span></span>
@@ -28,7 +29,8 @@
         </ul>
       </li>
 
-      <li class="{{ Route::is('periods.*') || Route::is('standards.*') ? 'active' : '' }}">
+      {{-- <li class="{{ Route::is('periods.*') || Route::is('standards.*') || Route::is('indicators.*') ? 'active' : '' }}"> --}}
+      <li class="active">
         <a href="javascript:void(0);" class="waves-effect">
           <i class="icon-note p-r-10"></i>
           <span class="hide-menu">Pengaturan SPMI<span class="fa arrow"></span></span>
@@ -40,6 +42,47 @@
           <li class="{{ Route::is('standards.*') ? 'active' : '' }}">
             <a href="{{ route('standards.index') }}">Standar</a>
           </li>
+          <li>
+            <a href="#">Indikator</a>
+          </li>
+        </ul>
+      </li>
+
+      {{-- <li> --}}
+        <li class="active">
+        <a href="javascript:void(0);" class="waves-effect">
+          <i class="icon-list p-r-10"></i>
+          <span class="hide-menu">Kuesioner<span class="fa arrow"></span></span>
+        </a>
+        <ul class="nav nav-second-level">
+          <li><a href="#">Kuesioner</a></li>
+          <li><a href="#">Pertanyaan</a></li>
+          <li><a href="#">Opsi Jawaban</a></li>
+        </ul>
+      </li>
+
+      {{-- <li> --}}
+        <li class="active">
+        <a href="javascript:void(0);" class="waves-effect">
+          <i class="icon-pencil p-r-10"></i>
+          <span class="hide-menu">Pengisian<span class="fa arrow"></span></span>
+        </a>
+        <ul class="nav nav-second-level">
+          <li><a href="#">Respons</a></li>
+          <li><a href="#">Jawaban Respons</a></li>
+        </ul>
+      </li>
+
+      {{-- <li> --}}
+        <li class="active">
+        <a href="javascript:void(0);" class="waves-effect">
+          <i class="icon-magnifier p-r-10"></i>
+          <span class="hide-menu">Audit<span class="fa arrow"></span></span>
+        </a>
+        <ul class="nav nav-second-level">
+          <li><a href="#">Audit</a></li>
+          <li><a href="#">Temuan Audit</a></li>
+          <li><a href="#">Tindak Lanjut</a></li>
         </ul>
       </li>
 

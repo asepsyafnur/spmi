@@ -12,7 +12,7 @@ use App\Http\Controllers\{
 
 Route::get('/', function () { return view('welcome'); });
 Route::get('login', [AuthenticateSessionController::class, 'create'])->name('login.create');
-Route::post('login', [AuthenticateSessionController::class, 'store'])->name('login.store');
+Route::post('login', [AuthenticateSessionController::class, 'store'])->name('login');
 Route::post('logout', [AuthenticateSessionController::class, 'destroy'])->name('logout');
 
 Route::middleware(['auth'])->group(function() {
